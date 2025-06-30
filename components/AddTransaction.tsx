@@ -13,8 +13,7 @@ export default function AddTransaction () {
             toast.error(error);
         }
         else {
-            toast.success('trancation added');
-            // console.log(data);
+            toast.success('transation added');
             formRef.current?.reset();
         }
     };
